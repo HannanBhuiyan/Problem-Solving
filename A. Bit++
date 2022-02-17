@@ -1,0 +1,9 @@
+n = int(input())
+flag = 0
+for i in range(0, n):
+    x = str(input())
+    if x[0] == str("+") or x[1] == str("+"):
+        flag += 1
+    else:
+        flag -= 1
+print(flag)
