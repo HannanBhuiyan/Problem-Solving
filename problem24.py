@@ -1,4 +1,4 @@
-
+# problem: Concatenate all elements in a list into a string and return it
 def concatenate_list_data(items):
     data = ""
     for i in items:

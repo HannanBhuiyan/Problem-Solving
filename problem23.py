@@ -1,4 +1,4 @@
-
+# problem : Create a histogram from a given list of integers
 def histogram(items):
     for i in items:
         output = ""
