@@ -6,5 +6,6 @@ def add_numbers(a, b):
     else:
         return a + b
 
+
 print(add_numbers(20, "sdf")) # Error
 print(add_numbers(20, 4)) # success
